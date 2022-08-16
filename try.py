@@ -1,3 +1,4 @@
-import calendar    
-#printing the calendar of the year 2019    
-s = calendar.prcal(2022)  
+file=open("FileToTest.tex" ,"r")
+
+for i in file:
+    print(i)
